@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phive xmlns="https://phar.io/phive">
+  <phar name="grumphp" version="^1.3.0" installed="1.3.0" location="./tools/grumphp" copy="true"/>
+  <phar name="ergebnis/composer-normalize" version="^2.11.0" installed="2.11.0" location="./tools/composer-normalize" copy="true"/>
+  <phar name="phpstan" version="^0.12.64" installed="0.12.64" location="./tools/phpstan" copy="true"/>
+  <phar name="phpmd" version="^2.9.1" installed="2.9.1" location="./tools/phpmd" copy="true"/>
+  <phar name="psalm" version="^4.3.1" installed="4.3.1" location="./tools/psalm" copy="true"/>
+  <phar name="phpcs" version="^3.5.8" installed="3.5.8" location="./tools/phpcs" copy="true"/>
+  <phar name="phpcbf" version="^3.5.8" installed="3.5.8" location="./tools/phpcbf" copy="true"/>
+  <phar name="php-cs-fixer" version="^2.17.3" installed="2.17.3" location="./tools/php-cs-fixer" copy="true"/>
+</phive>

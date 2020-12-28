@@ -1,0 +1,40 @@
+{
+    "name": "jobaria/quality-tools",
+    "type": "composer-plugin",
+    "description": "Set of quality tools for your application.",
+    "keywords": [
+        "code-quality",
+        "static-analysis",
+        "composer-normalize",
+        "php-cs-fixer",
+        "phpmd",
+        "grumphp",
+        "phpstan",
+        "codesniffer",
+        "psalm"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jobaria",
+            "email": "jobaria.php@gmail.com",
+            "homepage": "https://github.com/jobaria"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "composer-plugin-api": "^2.0",
+        "composer/composer": "^2.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "class": "Jobaria\\QualityTools\\Installer\\QualityToolsInstallerPlugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jobaria\\QualityTools\\": "src/"
+        }
+    }
+}

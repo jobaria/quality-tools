@@ -1,0 +1,22 @@
+grumphp:
+    environment:
+        paths:
+            - tools
+    tasks:
+        composer_normalize:
+            use_standalone: true
+        phpcs:
+            standard:
+                - phpcs.xml
+        phpcsfixer:
+            allow_risky: true
+            cache_file: .php_cs.cache
+            config: .php_cs
+            using_cache: true
+        phpmd:
+            ruleset:
+                - phpmd.xml
+        phpstan:
+            configuration: phpstan.neon
+        psalm:
+            config: psalm.xml
